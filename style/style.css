@@ -1,0 +1,271 @@
+/* body */
+
+body {
+    background-color: #f4de84;
+    padding-top: 60px;
+    padding-left: 80px;
+    padding-right: 80px;
+    font-family: 'Archivo', sans-serif;
+    color: black;
+}
+
+.whitebackground {
+    background-color: #f4f4f4;
+    padding: 10px;
+}
+
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+#logo {
+  height: 60px;
+  width: 100px;
+  vertical-align: middle;
+}
+
+/* navbar */
+
+.navbar {
+    font-size: 2em;
+}
+
+.navbar-default {
+    background-color: #709f7e;
+    border-color: #000000;
+}
+/* Title */
+.navbar-default .navbar-brand {
+    color: #101010;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: #5E5E5E;
+}
+/* Link */
+.navbar-default .navbar-nav > li > a {
+    color: #000000;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #2c603c;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #f8f8f8;
+    background-color: #272727;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+    color: #555;
+    background-color: #D5D5D5;
+}
+/* Caret */
+.navbar-default .navbar-nav > .dropdown > a .caret {
+    border-top-color: #777;
+    border-bottom-color: #777;
+}
+.navbar-default .navbar-nav > .dropdown > a:hover .caret,
+.navbar-default .navbar-nav > .dropdown > a:focus .caret {
+    border-top-color: #333;
+    border-bottom-color: #333;
+}
+.navbar-default .navbar-nav > .open > a .caret,
+.navbar-default .navbar-nav > .open > a:hover .caret,
+.navbar-default .navbar-nav > .open > a:focus .caret {
+    border-top-color: #555;
+    border-bottom-color: #555;
+}
+/* Mobile version */
+.navbar-default .navbar-toggle {
+    border-color: #DDD;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: #DDD;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #CCC;
+}
+@media (max-width: 767px) {
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+        color: #777;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+          color: #333;
+    }
+}
+
+
+.bigtitle {
+    text-align: center;
+    border: 5px solid black;
+}
+
+.introtitle {
+    font-size: 800%;
+}
+
+.info {
+    padding-top: 10px;
+    font-size: 2em;
+}
+
+#entrance {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border: 2px solid black;
+}
+.img-rounded {
+    border: 2px solid black;
+}
+
+.row {
+    font-size: 1.5em;
+}
+
+.comments {
+    font-size: 2em;
+}
+
+input {
+    background-color: #ffdfdf;
+}
+
+textarea {
+    background-color: #ffdfdf;
+}
+
+#button {
+    background-color: aliceblue
+}
+
+footer {
+    text-align: center;
+}
+
+.creamtea {
+    text-decoration: underline;
+}
+
+#park {
+    padding-top: 20px;
+}
+
+.park {
+    font-size: 1.5em;
+}
+
+#facilities {
+    padding-top: 20px;
+    text-align: center;
+}
+
+.renting{
+    text-align: center;
+}
+
+#shop {
+    padding-top: 20px;
+    font-size: 2em;
+}
+
+.contact {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#contactinfo {
+    text-align: center;
+    font-size: 1.5em;
+}
+
+#socialmedia {
+    padding-top: 30px;
+    text-align: center;
+    font-size: 5em;
+}
+
+.openinghours {
+    text-decoration: underline;
+}
+
+#openinghours {
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.feedback {
+    text-align: center;
+}
+
+#cafe{
+    padding-top: 30px;
+    font-size: 2em;
+}
+
+.facilities {
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.cafe {
+    font-size: 1.5em;
+}
+
+/* Countdown timer section */
+#easter {
+    font-size: 2em;
+    text-align: center;
+}
+
+ul {
+    display:table;
+    margin:0 auto;
+}
+
+.timetogo {
+    font-size: 3.5em;
+    color: darkgoldenrod;
+}
+
+#myBtn {
+    /* Hides the button by default */
+    display: none;
+    /* Fixes the button's position on the page */
+    position: fixed;
+    /* Place the button 30px from the bottom of the page */
+    bottom: 20px;
+    /* Place the button 30px from the right side of the page */
+    right: 30px; 
+    /* Positions button in the foreground ahead of all elements */
+    z-index: 1;
+    /* Border styling */
+    border: 2px solid #55524e;
+    /* Background colour of button */
+    background-color: sandybrown;
+    /* Font color */
+    color: black;
+    /* Changes cursor to pointer when hovering over */
+    cursor: pointer; 
+    /* Some padding */
+    padding: 15px; 
+    /* Made the button a circle rather than a square */
+    border-radius: 50px;
+    /* Increase font size */
+    font-size: 1em; 
+}
+
+#myBtn:hover {
+    /* Changes button background color when hovered over */
+    background-color: #5d7b66;
+    border: 2px solid #709f7e;
+}
